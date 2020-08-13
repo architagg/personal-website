@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Merriweather+Sans&display=swap');
+/* PROJECTS PAGE */
+
+.swiper-container{
+    height: 600px;
+    width: auto;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-1{
+    background: url("../projpics/nodeindicamp.JPG");
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+}
+.slide-2{
+    background: url("../projpics/angularcovid.JPG");
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.slide-3{
+    background: url("../projpics/medetect.JPG");
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+}
+.slide-4{
+    background: url("../projpics/gappeshappe.JPG");
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.swiper-slide{
+    font-size: 200%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    font-family:'IBM Plex Sans', sans-serif;
+    
+}
+
+#project{
+    padding: 10% 2% 10% 2%;
+}
+
+.title-slide{
+    background-color:black;
+    padding: 15px;
+}
+
+
+
+/* HOBBIES STYLING */
+.hobbiestext{
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 180%;
+    font-size: 135%;
+}
+
+@media(max-width:550px){
+    .hobbiestext{
+        font-size: 90%;
+    }
+    
+}
+
+@media(max-width:400px){
+    .hobbiestext{
+        font-size: 75%;
+    }
+    
+}
+
+
+
+/* FORM STYLING */
+
+
+
+.contact-heading{
+    font-size: 250%;
+    float: left;
+    margin-bottom: 5%;
+}
+.contactform{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+input::placeholder {
+    color: white !important;
+    
+}
+
+textarea::placeholder {
+    color: white !important;
+}
+
+
+form{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    right: 45%;
+    width: 40%;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.form-control{
+    
+    width: 60%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: #ffffff;
+    font-size: 150%;
+    margin-bottom: 2%;
+}
+
+.form-control.submit{
+    height: 30%;
+    background: black;
+    border-color: transparent;
+    color: white;
+    font-size: 125%;
+    letter-spacing: 2px;
+    height: 35%;
+    margin-top: 3%;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+}
+
+.form-control.submit:hover{
+    height: 30%;
+    background:white;
+    border-color: transparent;
+    color: black;
+    font-size: 125%;
+    letter-spacing: 2px;
+    height: 35%;
+    margin-top: 3%;
+    cursor: pointer;
+
+}
+
+
+
+/* MEDIA QUERIES PROJECTS PAGE */
+
+
+@media(max-width:785px){
+    .swiper-container{
+       
+        height: 250px;
+        width: auto;
+    }
+
+    .swiper-slide{
+        font-size:120%;
+        letter-spacing: 2px;
+    }
+}
+
+ @media(max-width:620px){
+    .swiper-container{
+       
+        height: 200px;
+        width: auto;
+    }
+
+    .swiper-slide{
+        font-size:70%;
+        letter-spacing: 1px;
+    }
+    .title-slide{
+        padding:10px;
+    }
+} 
+
+@media(max-width:490px){
+    .swiper-container{
+       
+        height: 150px;
+        width: auto;
+    }
+
+    .swiper-slide{
+        font-size:50%;
+        letter-spacing: 1px;
+    }
+    .title-slide{
+        padding: 6px;
+    }
+} 
+
+@media(max-width:450px){
+    .swiper-container{
+       
+        height: 300px;
+        width: auto;
+    }
+
+    .swiper-slide{
+        
+        letter-spacing: 1px;
+    }
+    .title-slide{
+        padding: 5px;
+    }
+} 
+
+
+@media(max-width:450px){
+    .swiper-container{
+       
+        height: 350px;
+        width: auto;
+    }
+
+    .swiper-slide{
+        font-size:100%;
+        letter-spacing: 1px;
+    }
+    .title-slide{
+        padding: 3px;
+    }
+} 
+
+
+@media(max-width:380px){
+    .swiper-container{
+       
+        height: 250px;
+        width: auto;
+    }
+
+    .swiper-slide{
+        font-size:70%;
+        letter-spacing: 1px;
+    }
+    .title-slide{
+        padding: 2px;
+    }
+} 
+
+
+/* MEDIA QUERIES FORM */
+@media(max-width:742px){
+    .contact-heading{
+        font-size: 175%;
+        text-align: center !important;
+        margin-bottom: 8%;
+    }
+    form{
+        right: 20%;
+        width: 70%;
+    }
+    .form-control.submit{
+        margin-top: 2%;
+    }
+    .form-control.submit:hover{
+        margin-top: 2%;
+    }
+}
+
+@media(max-width:540px){
+    .contact-heading{
+        font-size: 150%;
+        text-align: center !important;
+        margin-bottom: 6%;
+    }
+    form{
+        right: 2%;
+        width: 85%;
+    }
+    .form-control.submit{
+        margin-top: 1.75%;
+    }
+    .form-control.submit:hover{
+        margin-top: 1.75%;
+    }
+}
+
+@media(max-width:440px){
+    .contact-heading{
+        font-size: 150%;
+        text-align: center !important;
+        margin-bottom: 6%;
+    }
+    form{
+        right: 2%;
+        width: 85%;
+    }
+    .form-control.submit{
+        margin-top: 1.75%;
+    }
+    .form-control.submit:hover{
+        margin-top: 1.75%;
+    }
+    .form-control{
+        font-size: 100%;
+        margin-bottom: 1%;
+    }
+}
+
+@media(max-width:400px){
+    .contact-heading{
+        font-size: 160%;
+        text-align: center !important;
+        margin-bottom: 6%;
+    }
+    form{
+        right: -5%;
+        width: 90%;
+    }
+    .form-control.submit{
+        margin-top: 1.5%;
+    }
+    .form-control.submit:hover{
+        margin-top: 1.5%;
+    }
+    .form-control{
+        font-size: 80%;
+        margin-bottom: 1%;
+    }
+}
+
+@media(max-width:400px){
+    .contact-heading{
+        font-size: 100%;
+        text-align: center !important;
+        margin-bottom: 6%;
+    }
+    form{
+        right: -5%;
+        width: 90%;
+    }
+    .form-control.submit{
+        margin-top: 1.5%;
+        font-size: 100%;
+    }
+    .form-control.submit:hover{
+        margin-top: 1.5%;
+    }
+    .form-control{
+        font-size: 70%;
+        margin-bottom: 1%;
+    }
+}

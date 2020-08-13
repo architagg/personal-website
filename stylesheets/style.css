@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+
+
+
+/* Universal */
+body,html{
+    margin: 0;
+    height: 100%;
+    line-height: 170%;
+    color: grey;
+    overflow-x: hidden;
+}
+
+/* NavBar */
+
+
+nav{
+    z-index: 9999;
+}
+.navbar-default{
+    border: none;
+    background-color: transparent;
+}
+
+
+.navbar .navbar-brand{
+    color: white;
+}
+
+.navbar ul li a {
+    color: white !important;
+}
+
+.navbar .active a{
+    color: black !important;
+}
+
+
+
+/* Parallex */
+.parallax1{
+    background-image: url("../images/first.jpg");
+    min-height: 100%;
+}
+
+.parallax2{
+    background-image: url("../images/second.jpg");
+    min-height: 40%;
+}
+
+.parallax3{
+    background-image: url("../images/third.jpg");
+    min-height: 40%;
+}
+
+.parallax4{
+    background-image: url("../images/fourth.jpg");
+    min-height: 35%;
+}
+
+.parallax1,.parallax2,.parallax3,.parallax4{
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* SECTION */
+section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: white;
+    color: black;
+}
+
+.section-dark{
+    background-color:#282e34 ;
+    color: whitesmoke;
+}
+
+/* IMAGE HEADINGS */
+.prtext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 350%;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    text-shadow: 0 0 6px #000000;
+}
+
+.border{
+    background-color: #324A60 ;
+    padding: 15px;
+    font-size: 120%;
+}
+
+
+footer{
+    background-color: #111111;
+    color: whitesmoke;
+}
+
+
+.home-heading{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    color: white;
+    font-size: 550%;
+    letter-spacing: 15px;
+    text-shadow: 0 0 4px #000000;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+span.wrap{
+    width: 100%;
+    text-align: center;
+    font-size: 40%;
+    letter-spacing: 2px;
+    font-family: 'Exo 2', sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width:720px){
+    .parallax1,.parallax2,.parallax3,.parallax4{
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 870px){
+    .home-heading{
+        font-size: 370%;
+        letter-spacing: 10px;
+    }
+}
+
+@media (max-width: 550px){
+    .home-heading{
+        font-size: 280%;
+        letter-spacing: 5px;
+    }
+}
+
+@media (max-width: 470px){
+    .border{
+        font-size: 90%;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 375px){
+    .border{
+        font-size: 70%;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 300px){
+    .border{
+        font-size: 45%;
+        padding: 10px;
+    }
+}
+
+@media(max-width:600px){
+    .logo{
+        height: 100px;
+        width: 100px;
+    }
+}
