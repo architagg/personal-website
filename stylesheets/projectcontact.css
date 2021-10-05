@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Merriweather+Sans&display=swap');
 /* PROJECTS PAGE */
 
-.swiper-container{
+.swiper{
     height: 600px;
     width: auto;
 }
